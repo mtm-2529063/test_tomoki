@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>効果測定（仮）</title>
+    <!-- ネットの検索結果の説明文を表示する -->
+    <meta name="description" content="説明文を書く">
+
+    <!-- ファビコン（ブラウザのタブのアイコンのこと） -->
+    <link rel="icon" href="./n609.gif" type="image/x-icon">
+
+    <!-- CSSとの接続 -->
+    <link rel="stylesheet" href="test.css" >
+
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <h1>
+            <a href="test-index.html">
+                <img src="./header.png" alt="名前 ロゴ">
+            </a>
+        </h1>
+
+        <!-- ナビゲーション -->
+        <nav id="global_navi">
+            <ul>
+                <li class="current"><a href="test-index.html">profile</a></li>
+                <li><a href="hoby.html">すきなこと</a></li>
+                <li><a href="gallery.html">喫茶店</a></li>
+                <li><a href="music.html">プレイリスト</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <!-- ヘッダー終了 -->
+
+    <!-- ラッパー ラップ（囲うという意味）　メインとなる枠-->
+    <!-- divタグ　意味のないタグ　CSSやJavascriptでデザインを指定したいときに必要となる -->
+    <div id="wrapper">
+        <!-- メイン -->
+
+        <!-- article 記事やニュース、レビューを書くときに使われる -->
+        <article>
+            <h1>おすすめの喫茶店</h1>
+            <section class="cafe">
+                <div class="cafe-text">
+                    <h2> ポプラ（松本）</h2>
+                    <p>雰囲気抜群 サイフォン式で淹れてくれるコーヒーがめっちゃおいしい</p>
+                </div>
+                <div class="cafe-images">
+                    <img src="./cafe1.jpg" alt="ポプラの外観">
+                    <img src="popura2.webp" alt="ポプラの内観">
+                </div>
+                <div class="cafe-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3219.1608718263196!2d137.95822357460062!3d36.21128460067724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d0ff2258bd5bb%3A0x4132612e9508a899!2z44Kz44O844OS44O844OP44Km44K544O744Od44OX44Op!5e0!3m2!1sja!2sjp!4v1747322240600!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+
+            <section class="cafe">
+                <div class="cafe-text">
+                    <h2>Blue Monday(下北沢)</h2>
+                    <p>下北沢らしい雰囲気のカフェ 個人的に窓際の席がおすすめ</p>
+                </div>
+                <div class="cafe-images">
+                    <img src="./bulemonday3.jpg" alt="ブルーマンデー３">
+                    <img src="./bulemonday4.jpg" alt="ブルーマンデー４">
+                </div>
+                <div class="cafe-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.642124537592!2d139.66493767457035!3d35.66118793107678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f36bc63052d5%3A0x70fe9c0b3311693b!2sBlue%20Monday!5e0!3m2!1sja!2sjp!4v1747322362932!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+
+            <section class="cafe">
+                <div class="cafe-text">
+                    <h2>トロワシャンブル(下北沢)</h2>
+                    <p>映画に出てきそうな雰囲気 多分嫌いな人いないはず</p>
+                </div>
+                <div class="cafe-images">
+                    <img src="./trois・chambre1.jpg" alt="トロワ・シャンブル１">
+                    <img src="./trois・chambre2.jpg" alt="トロワシャンブル２">
+                </div>
+                <div class="cafe-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6483.441525670712!2d139.66477217457023!3d35.659250831183186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f3696c2f9c97%3A0x3f8e578f29d67eb9!2z44OI44Ot44Ov44O744K344Oj44Oz44OW44Or!5e0!3m2!1sja!2sjp!4v1747322394442!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </section>
+
+
+            <section class="cafe">
+                <div class="cafe-text">
+                    <h2>珈琲タイムス(新宿)</h2>
+                    <p>昭和っぽい雰囲気 モーニングがマジでおいしい</p>
+                </div>
+                <div class="cafe-images">
+                    <img src="./coffeetimes1.jpg" alt="珈琲タイムス１">
+                    <img src="./coffeetimes2.jpg" alt="珈琲タイムス２">
+                </div>
+                <div class="cafe-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.462922058013!2d139.6998755745719!3d35.690224329482014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cda8a4d3121%3A0x72131e29422017b2!2z54-I55Cy44K_44Kk44Og44K5!5e0!3m2!1sja!2sjp!4v1747322438463!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </section>
+
+            <!-- section 内容を小分けにしたいときに使われる -->
+    </div>
+
+
+    <aside id="sidebar">
+        <section id="side_banner">
+            <h2>すきなものリンク</h2>
+            <ul class="footer-links">
+
+                <li>
+                    <a href="https://sakurazaka46.com/s/s46/diary/blog/list?ima=0000" target="_blank">
+                        <img src="./櫻坂.png" alt="櫻坂46 blog">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@sakurazakachannel" target="_blank">
+                        <img src="./sakurazakachannel.jpg" alt="櫻坂チャンネル youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@unisonsgofficial" target="_blank">
+                        <img src="./unison.png" alt="unison square garden">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/almironnnnnnn/">
+                        <img src="./almironnnnnnn_qr.png" alt="instagram QRコード">
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </aside>
+    <!-- ラッパー終了 -->
+
+    <!--フッター -->
+    <footer>
+        <div id="footer">
+            <ul>
+                <li><a href="test-index.html">profile</a></li>
+                <li><a href="hoby.html">すきなこと</a></li>
+                <li class="current"><a href="gallery.html">喫茶店</a></li>
+                <li><a href="music.html">プレイリスト</a></li>
+
+            </ul>
+        </div>
+        <!-- small 意味合いを弱める（文字が小さく表現される） -->
+        <!-- &copy；　特殊文字が出力される　※ほかにもいっぱいある -->
+        <small>&copy; Tomoki MItsui</small>
+    </footer>
+    <!-- フッター終了 -->
+</body>
+
+</html>

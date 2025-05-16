@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>効果測定（仮）</title>
+    <!-- ネットの検索結果の説明文を表示する -->
+    <meta name="description" content="説明文を書く">
+
+    <!-- ファビコン（ブラウザのタブのアイコンのこと） -->
+    <link rel="icon" href="./resiramu.ico" type="image/x-icon">
+
+    <!-- CSSとの接続 -->
+    <link rel="stylesheet" href="test.css">
+
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <h1>
+            <a href="test-index.html">
+                <img src="./header.png" alt="名前 ロゴ">
+            </a>
+        </h1>
+
+        <!-- ナビゲーション -->
+        <nav id="global_navi">
+            <ul>
+                <li class="current"><a href="test-index.html">profile</a></li>
+                <li><a href="hoby.html">すきなこと</a></li>
+                <li><a href="cafe.html">喫茶店</a></li>
+                <li><a href="music.html">プレイリスト</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <!-- ヘッダー終了 -->
+
+    <!-- ラッパー ラップ（囲うという意味）　メインとなる枠-->
+    <!-- divタグ　意味のないタグ　CSSやJavascriptでデザインを指定したいときに必要となる -->
+    <div id="wrapper">
+        <!-- メイン -->
+
+        <!-- article 記事やニュース、レビューを書くときに使われる -->
+        <article>
+
+            <h1>my playlist</h1>
+            <!-- スポティファイ -->
+            <section class="playlist-section">
+
+                <img src="./spotify_logo.png" alt="スポティファイ ロゴ">
+
+                <h2>spotify</h2>
+                <div class="playlist-card">
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/playlist/5ZdvlvEJJElnhkPHBYUbHl?si=f788a29a50514ed3" width="100%"
+                        height="152" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy" frameborder="0"></iframe>
+                </div>
+            </section>
+            <!-- アップルミュージック -->
+            <section class="playlist-section">
+                <img src="./applemusic_logo.png" alt="アップルミュージック ロゴ">
+
+                <h3> apple music</h3>
+                <div class="playlist-card">
+                    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0"
+                        height="150" style="width:100%;max-width:660px;overflow:hidden;border-radius:12px"
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                        src="https://embed.music.apple.com/jp/playlist/pl.u-r2yB1pkuRN6RR3V">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- qrコード表示 -->
+            <section class="qr-section">
+                <h3>スマホからアクセスするにはこちら</h3>
+                <div class="qr-codes">
+                    <div>
+                        <p>Spotify</p>
+                        <a href="https://open.spotify.com/playlist/5ZdvlvEJJElnhkPHBYUbHl?si=1e1545d81ebf4ab1" >
+                            <img src="./spotify_playlist_qr.png" alt="spotify_QR">
+                        </a>
+                    </div>
+                    <div>
+                        <p>Apple Music</p>
+                        <a href="https://music.apple.com/jp/playlist/pl.u-r2yB1pkuRN6RR3V">
+                            <img src="./apple_music_playlist_qr2.png" alt="Apple Music_QR">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!-- section 内容を小分けにしたいときに使われる -->
+
+
+        </article>
+    </div>
+
+    <!-- メイン終了 -->
+    <!-- サイド -->
+    <!-- aside サイドバーによく使われる-->
+    <aside id="sidebar">
+        <section id="side_banner">
+            <h2>すきなものリンク</h2>
+            <ul class="footer-links">
+                <!-- target imgタグの属性　新規タブで開く　target=_blankを入れないと開いてるタブが切り替わるだけ -->
+                <li>
+                    <a href="https://sakurazaka46.com/s/s46/diary/blog/list?ima=0000" target="_blank">
+                        <img src="./櫻坂.png" alt="櫻坂46 blog">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@sakurazakachannel" target="_blank">
+                        <img src="./sakurazakachannel.jpg" alt="櫻坂チャンネル youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@unisonsgofficial" target="_blank">
+                        <img src="./unison.png" alt="unison square garden">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/almironnnnnnn/" target="_blank">
+                        <img src="./almironnnnnnn_qr.png" alt="instagram QRコード">
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </aside>
+    <!-- ラッパー終了 -->
+
+    <!--フッター -->
+    <footer>
+        <div id="footer">
+            <ul>
+                <li><a href="testi-ndex.html">profile</a></li>
+                <li><a href="hoby.html">すきなこと</a></li>
+                <li><a href="cafe.html">喫茶店</a></li>
+                <li class="current"><a href="music.html">プレイリスト</a></li>
+
+            </ul>
+        </div>
+        <!-- small 意味合いを弱める（文字が小さく表現される） -->
+        <!-- &copy；　特殊文字が出力される　※ほかにもいっぱいある -->
+        <small>&copy; Tomoki MItsui</small>
+    </footer>
+    <!-- フッター終了 -->
+</body>
+
+</html>
